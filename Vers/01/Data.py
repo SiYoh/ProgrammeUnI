@@ -1,23 +1,21 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+import os
+import pathlib
 
 # importation des différentes fonctions
 from Data_listFonctions import BaseDeDonnees
 
 
-# Modules dirs
-from os import *
-from os.path import *
-from glob import *
-
-
 # Modules Graphique
-#from tkinter import * 
-#from tkinter.messagebox import *
-#from tkinter.filedialog import *
+# Utiliser plutôt toga et plus généralement pybee?
+# Avantages: interface native & interface web
+# Inconvénient : dépendance supplémentaire
+# from tkinter import *
+# from tkinter.messagebox import *
+# from tkinter.filedialog import *
 
 
-# Enoncé : 
+# Enoncé :
 # un utilisateur arrive dans un menu indiquant :
 
 		# quel type de donnée l'utilisateur veut inscrire :
@@ -52,26 +50,12 @@ from glob import *
 #		# DataBank 		   |
 #__________________________|
 
-BaseDeDonnees() #mode : ecriture/lecture.
+BaseDeDonnees()  # mode : ecriture/lecture.
 # ecriture : creer ou  modifier
 # lecture  : tout  ou  partie  spécifique
 
 global Colis
-#Grue(start)
+# Grue(start)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#fin programme : Data
+# fin programme : Data

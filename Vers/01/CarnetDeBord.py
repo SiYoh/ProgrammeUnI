@@ -1,7 +1,7 @@
 
 
 # L'objectif du carnet de bord
-# est de conduire l'organisation du travail 
+# est de conduire l'organisation du travail
 # dans la réalisation du logiciel.
 
 # Partie seul :

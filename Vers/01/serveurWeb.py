@@ -1,8 +1,7 @@
-#!/usr/bin/python
- 
+#!/usr/bin/env python3
 import BaseHTTPServer
 import CGIHTTPServer
- 
+
 PORT = 8888
 server_address = ("", PORT)
 
