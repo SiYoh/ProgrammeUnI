@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--Incorporer DTD associes à chaque fonctionnalite	mise à disposition dans le Flux vers interface user selon circonstance-->
+
+
+<!---->
+<contacts>
+  <contact name="doe" firstname="john">
+    <address>
+      <road value="10, binary street" />
+      <postal value="0001" />
+      <city value="cpu" />
+    </address>
+    <programming lang="asm" />
+  </contact>
+  <contact name="dupont" firstname="jean">
+    <address>
+      <road value="impasse de l'assembleur" />
+      <postal value="0100" />
+      <city value="dram" />
+    </address>
+    <programming lang="c" />
+  </contact>
+  <contact name="terprette" firstname="quentin">
+    <address>
+      <road value="avenue du script" />
+      <postal value="1001" />
+      <city value="salt snake city" />
+    </address>
+    <programming lang="python" />
+  </contact>
+</contacts>
+<!---->
+
+
+
+
+<!--Programme UnI-->
+<ProgrammeUnI>
+	<SystemeGRP>
+		<ELEMENT Pole/>
+	</SystemeGRP>
+</ProgrammeUnI>
+
+
+
+<!--informations retranscrites de toutes les entrees user au sein des differents pôles-->
+<Pole>
+	<!---->
+	<Administratif>
+		<!---->
+		<Administration>
+		
+		</Administration>
+		<!---->
+		<Comptabilite>
+
+		</Comptabilite>
+		<!---->
+		<Tresorerie>
+
+		</Tresorerie>
+	</Administratif>
+
+	<!---->
+	<Developpement>
+	<!---->
+		<Annuaire>
+			
+			<Recherche>
+				<!--Recherche à effectuer par le système Shadow (par l'arborescence des interactions qui lie les uns avec les autres selon des repères spatiaux temporel commun avec certification sur l'honneur en cas de perde de données et s'il faut reconstituer la clé de sauvegarde avec des faits passés permettant de diminuer un maximum la quantité d'information pour le developpement perreine de la chaine de production entre les ressources naturelles et leurs consommations)-->
+			
+			</Recherche>
+		<!---->
+		</Annuaire>
+		<!---->
+		<Magasin>
+
+			<!---->
+			<Filtre>
+
+			</Filtre>
+
+		</Magasin>
+	</Developpement>
+
+	<!---->
+	<GestionDeRessource>
+		<!--Accès salon de discussion, organisation du planning individuel et collectif,etc... -->
+		<BureauDeProjet>
+
+		</BureauDeProjet>
+
+		<!--Attention, GROS Morceau-->
+		<Equilibrium>
+
+		</Equilibrium>
+	</GestionDeRessource>
+
+	<!---->
+	<Juridique>
+		<NormeSysteme>
+		</NormeSysteme>
+	</Juridique>
+</Pole>
